@@ -1,3 +1,3 @@
 project (dlmalloc C)
 
-add_library (dlmalloc malloc.c)
+add_library (${PROJECT_NAME} malloc.c)
