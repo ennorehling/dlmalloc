@@ -10,3 +10,4 @@ obj/
 *.sdf
 *.o
 *.opensdf
+config
