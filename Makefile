@@ -1,8 +1,8 @@
 # I am not very good at Makefiles.
 
 INCLUDES = -I.
-CFLAGS = -Wall -O3 $(INCLUDES)
-CPPFLAGS = -Wall -O3 $(INCLUDES)
+CFLAGS = -Wall -Wextra -Werror -O3 $(INCLUDES)
+CPPFLAGS = $(CFLAGS)
 
 all: libraries
 
